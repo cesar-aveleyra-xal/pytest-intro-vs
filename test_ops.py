@@ -11,5 +11,10 @@ def test_multiply():
 
 def test_divide():
     assert divide(10,5) == 2"""
+import os
 
-print('Hola desde Jenkins')
+# Acceder a las variables de entorno
+aws_access_key_id = os.getenv('AWS_ACCESS_KEY_ID')
+aws_secret_access_key = os.getenv('AWS_SECRET_ACCESS_KEY')
+print(aws_access_key_id)
+print(aws_secret_access_key)
