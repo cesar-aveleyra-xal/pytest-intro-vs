@@ -16,7 +16,7 @@ import os
 # Acceder a las variables de entorno
 aws_access_key_id = os.getenv('AWS_ACCESS_KEY_ID')
 aws_secret_access_key = os.getenv('AWS_SECRET_ACCESS_KEY')
-print('este es el pw : ' aws_access_key_id)
-print('no hsy nada: ' aws_secret_access_key)
+print('este es el pw : ', aws_access_key_id)
+print('no hsy nada: ', aws_secret_access_key)
 
 print('hola desde jenkins')
